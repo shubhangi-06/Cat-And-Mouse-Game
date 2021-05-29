@@ -11,14 +11,14 @@ var jerryTeasing;
 var jerryHappy;
 
 function preload() {
-    bgImg = loadImage("images/garden.png");
+    bgImg = loadImage("garden.png");
 
-    tomImg = loadImage("images/cat1.png");
-    tomRunning = loadAnimation("images/cat2.png","images/cat3.png");
-    tomHappy = loadImage("images/cat4.png");
-    jerryImg = loadImage("images/mouse1.png");
-    jerryTeasing = loadAnimation("images/mouse2.png","images/mouse3.png");
-    jerryHappy = loadImage("images/mouse4.png")
+    tomImg = loadImage("cat1.png");
+    tomRunning = loadAnimation("cat2.png","cat3.png");
+    tomHappy = loadImage("cat4.png");
+    jerryImg = loadImage("mouse1.png");
+    jerryTeasing = loadAnimation("mouse2.png","mouse3.png");
+    jerryHappy = loadImage("mouse4.png")
 }
 
 function setup(){
